@@ -34,7 +34,7 @@
           x="12"
           y="48"
           width="301"
-          height="229"/>
+          height="217"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="628b0104-5544-490e-a2ec-fd3280fb5b52"
@@ -62,11 +62,20 @@
             xsi:type="archimate:CompositionRelationship"
             href="CompositionRelationship_a2b59aaf-8ac0-4c69-ac53-6f565b0c24db.xml#a2b59aaf-8ac0-4c69-ac53-6f565b0c24db"/>
       </sourceConnections>
+      <sourceConnections
+          xsi:type="archimate:DiagramModelArchimateConnection"
+          id="91432740-89e0-4de1-a34e-45b6a5863700"
+          source="a48b1aa5-2539-4ee4-a22b-cd27d920c5c0"
+          target="354fd37f-ab98-4724-90cf-05ce867a6469">
+        <archimateRelationship
+            xsi:type="archimate:CompositionRelationship"
+            href="CompositionRelationship_09672118-ab40-494b-b4f5-813f5131b24f.xml#09672118-ab40-494b-b4f5-813f5131b24f"/>
+      </sourceConnections>
       <bounds
           x="12"
-          y="288"
+          y="276"
           width="301"
-          height="97"/>
+          height="109"/>
       <children
           xsi:type="archimate:DiagramModelArchimateObject"
           id="61ad08a9-272c-4000-aee1-84f1227d9ccf"
@@ -74,12 +83,26 @@
           type="1">
         <bounds
             x="12"
-            y="24"
+            y="36"
             width="133"
             height="25"/>
         <archimateElement
             xsi:type="archimate:ApplicationComponent"
             href="ApplicationComponent_3647676f-3d11-4aa9-bd71-d6731a1e67a1.xml#3647676f-3d11-4aa9-bd71-d6731a1e67a1"/>
+      </children>
+      <children
+          xsi:type="archimate:DiagramModelArchimateObject"
+          id="354fd37f-ab98-4724-90cf-05ce867a6469"
+          targetConnections="91432740-89e0-4de1-a34e-45b6a5863700"
+          type="1">
+        <bounds
+            x="12"
+            y="72"
+            width="133"
+            height="25"/>
+        <archimateElement
+            xsi:type="archimate:ApplicationComponent"
+            href="ApplicationComponent_a1e9e03d-9591-4db7-9d5e-a42783f79ebb.xml#a1e9e03d-9591-4db7-9d5e-a42783f79ebb"/>
       </children>
       <archimateElement
           xsi:type="archimate:Grouping"
